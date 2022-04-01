@@ -274,3 +274,17 @@ overflow-x: auto;}
         height: 100%;
     }
 }
+
+@media  screen and (max-width:750px) {
+    .header-mid {
+        display: none;
+    }
+    
+    .winners {
+        display: none;
+    }
+
+    .main-content {
+        width: 100vw;
+    }
+}
